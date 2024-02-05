@@ -1,4 +1,5 @@
 {
+    "id": "f8761da4-64d0-4c22-879a-0402f64c0afa",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -47,6 +48,39 @@
         "BackgroundColor": "rgba(133, 17, 32, 1)"
     },
     "children": [
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 20,
+                "Width": 40,
+                "X": 306,
+                "Y": 628,
+                "RelativeX": 306,
+                "RelativeY": 628,
+                "ResizeMode": "STRETCH",
+                "ParentId": "f8761da4-64d0-4c22-879a-0402f64c0afa",
+                "position": "absolute",
+                "edgeOffsets": 628,
+                "style": {
+                    "position": "absolute",
+                    "left": "72.66666666666667%",
+                    "top": "91.00449775112443%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "b672f8e9-399b-4f2f-b4e7-5eb9facb8742",
+            "thunkableVersion": 443,
+            "name": "Switch1"
+        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -650,7 +684,6 @@
             "name": "Image1"
         }
     ],
-    "id": "f8761da4-64d0-4c22-879a-0402f64c0afa",
     "thunkableVersion": 443,
     "name": "PhotoScreen"
 }
